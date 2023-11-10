@@ -1,16 +1,23 @@
+#create virus
+# by @toushifA
+
 import turtle
+
+#set screen
 s=turtle.Screen()
 s.bgcolor("black")
 s.title("virus")
 
-a=turtle.Turtle()
-a.color("white")
-a.speed(0)
+#pen
+pen=turtle.Turtle()
+pen.color("white")
+pen.speed(0)
 
+#virus body
 for i in range(200):
-    a.forward(i)
-    a.left(i+1)
-    a.hideturtle()
+    pen.forward(i)
+    pen.left(i+1)
+    pen.hideturtle()
 
 
 s.mainloop()
