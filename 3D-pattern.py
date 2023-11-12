@@ -1,18 +1,23 @@
+#3D illusion pattern 
+#by ToushifA_1611
+
 import turtle
 
+#set screen
 s=turtle.Screen()
 s.bgcolor("black")
+s.title("3D illusion pattern")
 
-a=turtle.Turtle()
-a.color("white")
-a.speed(0)
+#pen
+pen=turtle.Turtle()
+pen.color("white")
+pen.speed(0)
 
 for i in range(120):
-    a.forward(i)
-    a.left(90)
-    a.circle(i , 60)
-    a.right(90)
-    a.hideturtle()
-
+    pen.forward(i)
+    pen.left(90)
+    pen.circle(i , 60)
+    pen.right(90)
+    pen.hideturtle()
 
 s.mainloop()
