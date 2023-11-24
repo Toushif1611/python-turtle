@@ -1,4 +1,5 @@
 import turtle
+
 s = turtle.Screen()
 s.bgcolor("black")
 s.tracer(0)
@@ -12,7 +13,7 @@ while True:
     s.update()
     for i in range(120):
         a.forward(120)
-        a.left(120)
+        a.left(60)
 
     a.left(30)
 
