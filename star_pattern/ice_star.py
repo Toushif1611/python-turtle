@@ -1,3 +1,7 @@
+# star_pattern/ ice
+# by toushifA_1611
+
+
 import turtle
 
 s = turtle.Screen()

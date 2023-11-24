@@ -1,3 +1,6 @@
+# star_pattern/ ninja star
+# by toushifA_1611
+
 import turtle
 
 s = turtle.Screen()

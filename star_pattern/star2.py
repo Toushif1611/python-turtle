@@ -1,3 +1,6 @@
+# star_pattern/ rangoli
+# by toushifA_1611
+
 import turtle
 
 s = turtle.Screen()
