@@ -1,5 +1,5 @@
 #create virus
-# by @toushifA
+# by ToushifA-1611
 
 import turtle
 
