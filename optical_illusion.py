@@ -1,3 +1,6 @@
+# optical illusion pattern 
+# by Toushif1611
+
 import turtle
 
 # set screen

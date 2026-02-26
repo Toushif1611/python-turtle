@@ -1,20 +1,20 @@
 # star_pattern/ rangoli
-# by toushifA_1611
+# by toushif1611
 
 import turtle
 
-#set screen
+# set screen
 s = turtle.Screen()
 s.bgcolor("black")
 s.tracer(0)
 
-#pen
+# set pen
 a = turtle.Turtle()
 a.color("white")
 a.speed(0)
 a.hideturtle()
 
-#main turtle loop
+# main turtle loop
 while True:
     s.update()
     for i in range(120):
