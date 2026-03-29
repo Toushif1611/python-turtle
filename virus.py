@@ -10,7 +10,7 @@ s.title("virus")
 
 #pen
 pen=turtle.Turtle()
-pen.color("white")
+pen.color("cyan")
 pen.speed(0)
 
 #virus body
